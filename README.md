@@ -60,6 +60,8 @@ Install CUDA Kit [here, and note the version](https://docs.nvidia.com/cuda/cuda-
 
 	write: pip install mlagents [enter]
 
+        write: pip install unityagents [enter]
+
         write: conda install pytorch -c pytorch
 
 	write: pip install torchvision===0.8.2 -f https://download.pytorch.org/whl/torch_stable.html

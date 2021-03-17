@@ -36,21 +36,41 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Instructions
 
-1.- NVIDIA CARDS : If you have a Nvidia VidCard you cau use Pytorch and train your model faster, follow this intructions for Windows:
+1.- NVIDIA CARDS : If you have a Nvidia VidCard you can use Pytorch and train your model faster, follow this intructions for Windows:
 	
 Install the latest nvidia driver [here](https://www.nvidia.com/es-la/geforce/drivers/)
 
 Install Visual Studio 2019 16x (needed for CUDA) [here](https://visualstudio.microsoft.com/es/downloads/)
 
-Install CUDA Kit [here](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html)
+Install CUDA Kit [here, and note the version](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html)
 
-2.- Install Conda [here](https://www.anaconda.com/products/individual)
+2.- Install AnaConda [here](https://www.anaconda.com/products/individual)
 
-3.- Create a kernel on Conda and install gym enviroment: on your menu on windows , select "Anaconda" - and then "Anaconda Prompt" it will open a new command window, 
-	write "conda create --name drlnd python=3.6" [enter]
-	write "activate drlnd" [enter]
-	write "pip install gym" [enter]
-4.-
+3.- Create a kernel "drlnd" on AnaConda and install pytorch, torchvision with cuda support, gym enviroment, mlagents and unityagents: 
+
+	on your menu on windows , select "Anaconda3" - and then "Anaconda Prompt" it will open a new command window, 
+
+	write: conda create --name drlnd python=3.8 [enter]
+
+	write: conda activate drlnd [enter]
+
+	write: conda install -c anaconda ipykernel [enter]
+	
+	write: python -m ipykernel install --user --name drlnd --display-name "drlnd" [enter]
+
+	write: pip install mlagents [enter]
+
+        write: conda install pytorch -c pytorch
+
+	write: pip install torchvision===0.8.2 -f https://download.pytorch.org/whl/torch_stable.html
+
+4.- Download the github project (git clone https://github.com/pelsan/p1_navigation.git) and open Navigation.ipynb on Jupyter
+
+5.- Select drlnd Kernel:
+
+	On Jupyter Menu select "Kernel" - "Change Kernel" - "drlnd"
+
+6.- Run the Notebook
 
 	
 

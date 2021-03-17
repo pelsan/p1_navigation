@@ -36,7 +36,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Instructions
 
-NVIDIA CARDS : If you have a Nvidia VidCard you cau use Pytorch and train your model faster, follow this intructions for Windows:
+1.- NVIDIA CARDS : If you have a Nvidia VidCard you cau use Pytorch and train your model faster, follow this intructions for Windows:
 	
 	- Install the latest nvidia driver [here](https://www.nvidia.com/es-la/geforce/drivers/)
 	- Install Visual Studio 2019 16x (needed for CUDA) [here](https://visualstudio.microsoft.com/es/downloads/)

@@ -39,9 +39,19 @@ The task is episodic, and in order to solve the environment, your agent must get
 1.- NVIDIA CARDS : If you have a Nvidia VidCard you cau use Pytorch and train your model faster, follow this intructions for Windows:
 	
 Install the latest nvidia driver [here](https://www.nvidia.com/es-la/geforce/drivers/)
+
 Install Visual Studio 2019 16x (needed for CUDA) [here](https://visualstudio.microsoft.com/es/downloads/)
+
 Install CUDA Kit [here](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html)
-Install Conda
+
+2.- Install Conda [here](https://www.anaconda.com/products/individual)
+
+3.- Create a kernel on Conda and install gym enviroment: on your menu on windows , select "Anaconda" - and then "Anaconda Prompt" it will open a new command window, 
+	write "conda create --name drlnd python=3.6" [enter]
+	write "activate drlnd" [enter]
+	write "pip install gym" [enter]
+4.-
+
 	
 
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  

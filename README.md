@@ -39,7 +39,7 @@ Install CUDA Kit [here, and note the version to be 11.0 ](https://docs.nvidia.co
 
 3.- Create a kernel "drlnd" on AnaConda and install pytorch, torchvision with cuda support, gym enviroment, mlagents and unityagents: 
 
-	on your menu on windows , select "Anaconda3" - and then "Anaconda Prompt" it will open a new command window then :
+	on your menu on windows , select "Anaconda3" - and then "Anaconda Prompt" it will open a new command window then (For another S.O. please refer  [this](https://docs.anaconda.com/anaconda/install/verify-install/) ):
 
 	write: conda create --name drlnd python=3.8 [enter]
 

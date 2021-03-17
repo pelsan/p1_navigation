@@ -52,7 +52,7 @@ Install CUDA Kit [here, and note the version to be 11.0 ](https://docs.nvidia.co
 
 	write: pip install mlagents [enter]
 
-    	write: pip install unityagents --user [enter]
+	write: pip install unityagents --user [enter]
 
 	write: conda install pytorch -c pytorch [enter]
 

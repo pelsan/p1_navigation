@@ -41,7 +41,12 @@ NVIDIA CARDS : If you have a Nvidia VidCard you cau use Pytorch and train your m
 	- Install the latest nvidia driver [here](https://www.nvidia.com/es-la/geforce/drivers/)
 	- Install Visual Studio 2019 16x (needed for CUDA) [here](https://visualstudio.microsoft.com/es/downloads/)
 	- Install CUDA Kit [here](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html)
-	- 
+
+    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+
 
 Install Conda
 	

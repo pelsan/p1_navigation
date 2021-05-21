@@ -57,7 +57,8 @@ Install CUDA Kit [here, and note the version to be 11.0 ](https://docs.nvidia.co
 	write: conda install pytorch -c pytorch [enter]
 
 	write: pip install torchvision===0.8.2 -f https://download.pytorch.org/whl/torch_stable.html [enter]
-
+        or
+	write: conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
 
 4.- Download the github project (git clone https://github.com/pelsan/p1_navigation.git) and open Navigation.ipynb on Jupyter
 
